@@ -8,7 +8,7 @@ import org.junit.Test;
 public class AppTest 
 {
     @Test
-    public static void FailureTesteFarenheit_Celcius(){
+    public void FailureTesteFarenheit_Celcius(){
         assertEquals(0.0, App.ConverterFarenheit_Celcius(32.0), 0.0);
     }
 }
