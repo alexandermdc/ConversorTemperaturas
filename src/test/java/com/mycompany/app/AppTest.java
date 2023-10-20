@@ -10,4 +10,8 @@ public class AppTest
     void FailureTesteFarenheitCelcius(){
         App.ConverterFarenheit_Celcius(null);
     }
+    @Test
+    void FailureTesteCelciusFarenheit(){
+        App.ConverterCelcius_Farenheit(null);
+    }
 }
