@@ -8,10 +8,10 @@ public class AppTest
 {
     @Test
     void FailureTesteFarenheitCelcius(){
-        App.ConverterFarenheit_Celcius(null);
+        assertEquals(32.1, App.ConverterFarenheit_Celcius(0.0),0.0);
     }
     @Test
     void FailureTesteCelciusFarenheit(){
-        App.ConverterCelcius_Farenheit(null);
+        assertEquals(0.0, App.ConverterFarenheit_Celcius(55.0),0.0);
     }
 }
