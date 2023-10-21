@@ -6,5 +6,10 @@ pipeline {
                 sh 'mvn site'
             }
         }
+        stage('testes'){
+            steps{
+                sh 'mvn checkstyle::check'
+            }
+        }
     }
 }
