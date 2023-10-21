@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.402" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.284" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire/surefirebooter17813884681725538528.jar /mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire 2023-10-20T20-27-08_454-jvmRun1 surefire5253503970838373430tmp surefire_04563864694433830619tmp"/>
+    <property name="sun.java.command" value="/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire/surefirebooter6576040008480376377.jar /mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire 2023-10-20T20-29-52_718-jvmRun1 surefire1040101534572999746tmp surefire_01521319274718297853tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/test-classes:/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/classes:/home/alexander/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/alexander/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire/surefirebooter17813884681725538528.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/alexa/OneDrive/Área de Trabalho/UFAM/GC/convertertemp/target/surefire/surefirebooter6576040008480376377.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="alexander"/>
@@ -56,14 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="FailureTesteFarenheitCelcius" classname="com.mycompany.app.AppTest" time="0.051">
-    <failure message="expected:&lt;32.1&gt; but was:&lt;-17.77777777777778&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<32.1> but was:<-17.77777777777778>
-	at com.mycompany.app.AppTest.FailureTesteFarenheitCelcius(AppTest.java:11)
-]]></failure>
-  </testcase>
-  <testcase name="FailureTesteCelciusFarenheit" classname="com.mycompany.app.AppTest" time="0.001">
-    <failure message="expected:&lt;0.0&gt; but was:&lt;12.777777777777779&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0.0> but was:<12.777777777777779>
-	at com.mycompany.app.AppTest.FailureTesteCelciusFarenheit(AppTest.java:15)
-]]></failure>
-  </testcase>
+  <testcase name="FailureTesteFarenheitCelcius" classname="com.mycompany.app.AppTest" time="0.037"/>
+  <testcase name="FailureTesteCelciusFarenheit" classname="com.mycompany.app.AppTest" time="0.003"/>
 </testsuite>

@@ -8,7 +8,7 @@ pipeline {
         }
         stage('testes'){
             steps{
-                sh 'mvn checkstyle::check'
+                sh 'mvn test'
             }
         }
     }

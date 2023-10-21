@@ -12,6 +12,6 @@ public class AppTest
     }
     @Test
     public void FailureTesteCelciusFarenheit(){
-        assertEquals(32.0, App.ConverterFarenheit_Celcius(0.0),0.0);
+        assertEquals(32.0, App.ConverterCelcius_Farenheit(0.0),0.0);
     }
 }
