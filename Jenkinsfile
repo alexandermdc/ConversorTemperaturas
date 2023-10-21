@@ -1,9 +1,10 @@
 pipeline {
-    agent any
+    agent any 
+    stages {
         stage('Linting') {
             steps {
                 sh 'mvn site'
             }
         }
-
+    }
 }
